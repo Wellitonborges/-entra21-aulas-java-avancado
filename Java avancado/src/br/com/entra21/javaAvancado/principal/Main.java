@@ -88,7 +88,7 @@ public class Main {
 			System.out.println("O personagem "+PersonagemJogo.values()[personagem].name());
 			System.out.println(PersonagemJogo.values()[personagem].getVIDA());
 			System.out.println(PersonagemJogo.values()[personagem].getDESCRICAO());
-		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==--=-=-=-=-=-=-=-=-");
 			
 		}
 		
