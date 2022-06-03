@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import br.com.entra21.javaAvancado.principal.aula01enuns.PersonagemJogo;
 import br.com.entra21.javaAvancado.principal.aula02enuns.collection.list.AprenderCollections;
+import br.com.entra21.javaAvancado.principal.aula03.Aula03;
 
 public class Main {
 
@@ -33,6 +34,9 @@ public class Main {
 		case 3:
 			AprenderCollections.aprender();
 			break;
+		case 4:
+			Aula03.aprender();
+			break;
 
 		default:
 			System.out.println("Opção invalida");
@@ -51,6 +55,7 @@ public class Main {
 		menu += "\n1 - Wrapper";
 		menu += "\n2 - ENUM";
 		menu += "\n3 - Collections - List";
+		menu += "\n4 - Anotações e Datas";
 		menu += "\nEscolha uma das Opções";
 
 		return menu;
